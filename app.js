@@ -6,7 +6,6 @@ let animate = document.querySelectorAll(".animate");
 let colorInp = document.getElementById("colorInp");
 generateBtn.addEventListener("click", () => {
   let color = colorInp.value.slice(1, 7);
-  alert("the response should take time!!");
   colorGenerator(color);
 });
 
